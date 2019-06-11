@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: start;
+    height: 100vh;
+    min-height: 250px;
+    font-family: 'Arvo', serif;
+    text-align: justify;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#corps {
+    position: relative;
+    max-width: 139px;
+}
+#texte {
+    width: 40%;
+    padding: 0 2vw 5vw 0;
+}
+
+.passif {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.passif:hover {
+    border: solid 0.1em rgba(255, 0, 0, 0.75);
+}
+
+.actif {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    transform: translate(-50%);
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+#tete {
+    top: 4%;
+    left: 52%;
+}
+#epaule {
+    top: 20%;
+    left: 15%;
+}
+#bras {
+    top: 30%;
+    left: 90%;
+}
+#main {
+    top: 43%;
+    left: 10%;
+}
+#hanche {
+    top: 46%;
+    left: 75%;
+}
+#jambe {
+    top: 70%;
+    left: 36%;
+}
+#pied {
+    top: 85%;
+    left: 65%;
+}
