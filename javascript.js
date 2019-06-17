@@ -42,12 +42,10 @@ function changeClass(idName){
     var myElement = document.getElementById(idName);
     isActive = myElement;
     myElement.className = 'actif';
-
-    var myName = idName;
     
     for (let i in contenu){
 
-        if (contenu[i].nom == myName){
+        if (contenu[i].nom == idName){
             titre.innerText = contenu[i].titreP;
             paragraphe.innerText = contenu[i].p;
         }
